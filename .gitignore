@@ -1,0 +1,6 @@
+# .gitignore file for a Node.js project
+node_modules/
+.next/
+.env
+.env.local
+.DS_Store
