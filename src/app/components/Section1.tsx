@@ -41,7 +41,7 @@ const Section1 = () => {
 
         {/* Card 4 */}
         <div className='flex flex-col gap-3 items-center justify-center border w-32 h-32 sm:w-44 sm:h-44 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-lg border-[#0000006c] p-4'>
-          <Image className='w-10 sm:w-14 md:w-16' src={Images.deliveryTruck} alt="" />
+          <Image className='w-10 sm:w-14 md:w-16' src={Images.banknote} alt="" />
           <h1 className='text-[12px] sm:text-xl font-semibold'>Payment</h1>
           <p className='text-xs sm:text-sm'>Secure System</p>
         </div>
