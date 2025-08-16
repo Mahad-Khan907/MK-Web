@@ -7,7 +7,6 @@ export default {
     { name: 'email', title: 'Email', type: 'string' },
     { name: 'phone', title: 'Phone', type: 'string' },
     { name: 'address', title: 'Address', type: 'string' },
-    { name: 'cnic', title: 'CNIC', type: 'string' },
     { name: 'city', title: 'City', type: 'string' },
     { name: 'zipCode', title: 'Zip Code', type: 'string' },
     {
