@@ -12,7 +12,6 @@ function Checkout() {
     email: "",
     phone: "",
     address: "",
-    cnic: "",
     city: "",
     zipCode: "",
   });
@@ -91,7 +90,6 @@ function Checkout() {
         email: "",
         phone: "",
         address: "",
-        cnic: "",
         city: "",
         zipCode: "",
       });
@@ -162,14 +160,6 @@ function Checkout() {
               }`}
             />
 
-            <input
-              type="number"
-              name="cnic"
-              placeholder="CNIC (optional)"
-              value={formValues.cnic || ""} 
-              onChange={handleInputChange}
-              className="p-3 border rounded-lg"
-            />
 
             <input
               name="city"
